@@ -1,0 +1,23 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "MyNewPass",
+    "database": "Temp_V2",
+    "synchronize": false,
+    "entities": [
+        "src/entities/*.ts"
+    ],
+    "subscribers": [
+        "src/subscriber/*.js"
+    ],
+    "migrations": [
+        "src/migrations/*.ts"
+    ],
+    "cli": {
+        "entitiesDir": "src/entities",
+        "migrationsDir": "src/migrations",
+        "subscribersDir": "src/subscriber"
+    }
+}

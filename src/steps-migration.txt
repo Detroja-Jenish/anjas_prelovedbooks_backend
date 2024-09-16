@@ -1,0 +1,2 @@
+yarn run typeorm migration:generate -d ./src/AppDataSource.ts ./src/migrations/
+yarn run typeorm migration:run --dataSource=./src/AppDataSource.ts
